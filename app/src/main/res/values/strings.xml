@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SberLesson2</string>
+    <string name="mainActivityText">MainActivity</string>
+    <string name="splashActivityText">SplashActivity</string>
+    <string name="splashActivityGoBtn">Go</string>
+    <string name="mainActivityGoBtn">Go</string>
+    <string name="detailsActivityText">DetailsActivity</string>
+    <string name="detailsActivityGoBtn">Go</string>
+    <string name="infoActivityText">InfoActivity</string>
+    <string name="infoActivityGoBtn">Go</string>
+</resources>

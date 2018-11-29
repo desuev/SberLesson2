@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashTextMarginStart">148dp</dimen>
+    <dimen name="splashTextMarginTop">246dp</dimen>
+    <dimen name="splashTextMarginEnd">148dp</dimen>
+    <dimen name="splashTextMarginBottom">246dp</dimen>
+    <dimen name="splashBtnMarginStart">147dp</dimen>
+    <dimen name="splashBtnMarginEnd">149dp</dimen>
+    <dimen name="splashBtnMarginBottom">8dp</dimen>
+    <dimen name="mainGoBtnMarginStart">145dp</dimen>
+    <dimen name="mainGoBtnMarginTop">180dp</dimen>
+    <dimen name="mainGoBtnMarginEnd">148dp</dimen>
+    <dimen name="mainGoBtnMarginBottom">8dp</dimen>
+    <dimen name="detailsTextMarginStart">149dp</dimen>
+    <dimen name="detailsTextMarginSTop">247dp</dimen>
+    <dimen name="detailsTextMarginEnd">146dp</dimen>
+    <dimen name="detailsTextMarginBottom">245dp</dimen>
+    <dimen name="detailsBtnMarginStart">148dp</dimen>
+    <dimen name="detailsBtnMarginTop">188dp</dimen>
+    <dimen name="detailsBtnMarginEnd">148dp</dimen>
+    <dimen name="detailsBtnMarginBottom">8dp</dimen>
+    <dimen name="infoTextMarginStart">157dp</dimen>
+    <dimen name="infoTextMarginTop">246dp</dimen>
+    <dimen name="infoTextMarginEnd">156dp</dimen>
+    <dimen name="infoTextMarginBottom">190dp</dimen>
+    <dimen name="infoBtnMarginStart">148dp</dimen>
+    <dimen name="infoBtnMarginEnd">148dp</dimen>
+    <dimen name="infoBtnMarginBottom">8dp</dimen>
+    <dimen name="mainGoBtnWidth">349dp</dimen>
+    <dimen name="splashGoBtnWidth">349dp</dimen>
+    <dimen name="detailsGoBtnWidth">349dp</dimen>
+    <dimen name="infoGoBtnWidth">349dp</dimen>
+</resources>

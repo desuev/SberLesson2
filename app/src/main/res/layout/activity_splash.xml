@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/splashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/splashTextMarginStart"
+        android:layout_marginTop="@dimen/splashTextMarginTop"
+        android:layout_marginEnd="@dimen/splashTextMarginEnd"
+        android:layout_marginBottom="@dimen/splashTextMarginBottom"
+        android:text="@string/splashActivityText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/splashBtn"
+        android:layout_width="@dimen/splashGoBtnWidth"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/splashBtnMarginStart"
+        android:layout_marginEnd="@dimen/splashBtnMarginEnd"
+        android:layout_marginBottom="@dimen/splashBtnMarginBottom"
+        android:background="@color/colorAccent"
+        android:text="@string/splashActivityGoBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
