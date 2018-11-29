@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String VALUE = "msg";
     private Button goBtn;
     private TextView mainText;
 
@@ -40,10 +39,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public static Intent newIntent(Context context, String messageToLog){
+    public static Intent newIntent(Context context){
         Intent intent = new Intent(context, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intent.putExtra(VALUE, messageToLog);
         return intent;
     }
 }

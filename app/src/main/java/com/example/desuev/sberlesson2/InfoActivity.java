@@ -43,7 +43,7 @@ public class InfoActivity extends AppCompatActivity {
 
         @Override
         public void onClick(View v) {
-            startActivity(MainActivity.newIntent(InfoActivity.this, "Text from InfoActivity: " + infoText.getText().toString()));
+            startActivity(MainActivity.newIntent(InfoActivity.this));
         }
     }
 
